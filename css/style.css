@@ -1,0 +1,56 @@
+body{
+    overflow-x: hidden;
+    color: white;
+}
+
+.logo img{
+    width: 77px;
+    height: auto;
+}
+
+.nav-link {
+font-size: 18px;
+}
+
+.btn-light {
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-between;
+}
+
+nav ul{
+    align-items: center;
+}
+
+.bg-image-section{
+    background-image: url('/images/groupe1.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:calc(100vh - 94px);
+    margin-top: 94px;
+    width: 100vw;
+}
+
+.section-apprenant{
+    padding-top: 45px;
+    height: 650px;    
+}
+
+.section-apprenant h3{
+    text-align: center;
+}
+
+.section-presentation{
+    margin-top: 85px;
+}
+
