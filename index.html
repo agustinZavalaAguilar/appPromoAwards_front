@@ -13,7 +13,7 @@
             <div class="logo">
                 <img src="images/awardLogo.png" class="me-3"/>
             </div>  
-                <nav class=""> 
+                <nav class="navfix"> 
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav mb-2 ">
                         <li class="nav-item me-3">
