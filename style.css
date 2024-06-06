@@ -1,3 +1,9 @@
+/* Theme Name: Awards DWWM
+Author: inconnue
+Description: Theme "awards DWWM"
+Version: 1.1
+*/
+
 body{
     overflow-x: hidden;
     color: white;
@@ -25,6 +31,8 @@ font-size: 18px;
     display: flex;
     flex-wrap: inherit;
     justify-content: space-between;
+    position: absolute;
+
 }
 
 nav ul{
