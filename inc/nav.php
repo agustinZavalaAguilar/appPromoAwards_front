@@ -1,12 +1,11 @@
-<?php 
-/* Template name: Accueil*/
-get_header();?>
-<?php include('inc/nav.php');?>
-    
-    <!-- <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">  
+<!-- ##################### -->
+    <!-- Navigation -->
+    <!-- ##################### -->
+
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">  
         <div class="container">              
             <div class="logo">
-                <img src="images/awardLogo.png" class="me-3"/>
+               <a  href="<?php echo home_url( '/' ); ?>" class="logo"> <img src="<?php echo get_template_directory_uri(); ?> images/awardLogo.png" class="me-3"/></a>
             </div>  
                 <nav class="navfix"> 
                     <div class="collapse navbar-collapse" id="navbarText">
@@ -40,31 +39,4 @@ get_header();?>
                 </div>
             </div> 
         </div>
-    </header> -->
-
-    <section class="bg-image-section">
-    </section>
-    
-    <section href="#" id="section-awards" class=" bg-dark section-apprenant ">
-        <div class="container">
-            <div class="row">
-                <div class="section-presentation col-md-12 col-lg-5">
-       
-            <?php the_content();?>
-        
-        
-
-            
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-
-        </div>
-    </section>
-    
-</body>
-
-</html>
+    </header>
