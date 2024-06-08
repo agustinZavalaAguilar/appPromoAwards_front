@@ -1,0 +1,1 @@
+<h3>Voici un joli footer</h3>

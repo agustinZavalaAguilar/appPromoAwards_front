@@ -3,6 +3,9 @@ Author: inconnue
 Description: Theme "awards DWWM"
 Version: 1.1
 */
+h3{
+    text-align: center;
+}
 
 body{
     overflow-x: hidden;
@@ -38,16 +41,6 @@ nav ul{
     align-items: center;
 }
 
-.bg-image-section{
-    background-image: url('/images/groupe1.png');
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;
-    height:calc(100vh - 94px);
-    margin-top: 94px;
-    width: 100vw;
-}
-
 .section-apprenant{
     padding-top: 45px;
     height: 650px;    
@@ -57,7 +50,73 @@ nav ul{
     text-align: center;
 }
 
-.section-presentation{
-    margin-top: 85px;
+#hero_banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.container{
+    margin:0%;
+    background-color: rgb(52,58,64) !important;
+    max-width: fit-content !important;   
+}
+
+.presentation{
+    background-color: rgb(52,58,64); 
+    padding-top: 3%;   
+}
+
+.presentation p {
+    color:whitesmoke;
+    padding: 3% 5% 3% 5%;
+}
+
+.presentation h3 {
+    color:whitesmoke;
+    padding: 3% 5% 3% 5%;
+}
+
+.row{
+    justify-content: center;
+}
+.row>*  {
+    width: fit-content !important;
+    align-items: center;
+    justify-content: center !important;
+}
+
+.candidate{
+    display: flex;
+    flex-direction: column;
+}
+
+.candidate img{
+    height: auto;
+    width: 5em;
+}
+
+.row h3{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.formulaire_inscription_email{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+#email{
+    width: 90%;
+}
+
+input{
+    margin: 1rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    color: white;;
 }
 
